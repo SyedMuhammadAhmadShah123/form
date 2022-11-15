@@ -18,29 +18,54 @@
         </div>
         <div id="d3">
             <form action="" autocomplete="on">
-                    <h2 style="margin-bottom: 48px; margin-top: 10px; text-align: center; ">Create Account</h2>
+                <h2 style="margin-bottom: 48px; margin-top: 10px; text-align: center; ">Create Account</h2>
                 <i class="fa-solid fa-user" ></i>
-                <input type="text" placeholder="Full Name" required>
+                <input id="name" type="text" placeholder="Full Name" required value="John Smith">
                 <br>
                 <i class="fa-solid fa-envelope"></i>
-                <input type="email" placeholder="Email Address" required>  
+                <input id="email" type="email" placeholder="Email Address" required value="johnSmith@gmail.com">  
                 <br>
                 <i class="fa-solid fa-mobile"></i>
-                <input type="tel" placeholder="Phone Number - Optional">
+                <input id="phoneNumber" type="tel" placeholder="Phone Number - Optional" value="03111111111">
                 <br>
                 <i class="fa-solid fa-key"></i>
-                <input type="password" placeholder="Password">
+                <input id="pswd" type="password" placeholder="Password" value="abc123">
                 <br>
                 <i class="fa-solid fa-key"></i>
-                <input type="password" placeholder="Confirm Password">
+                <input id="cPswd" type="password" placeholder="Confirm Password" value="abc123">
                 <br>
                 <input id="button" type="submit" value="Signup Now">
-                <a href="#">I have an account</a>
+                <a href="html/table.html">Click to see table</a>
             </form>
         </div>
 
     </div>
 
+    <div id="output"></div>
+    <table>
+        <thead>
+          <tr>
+            <th>Form Data</th>
+          </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td id="tableR1"></td>
+           </tr>
+           <tr>
+             <td id="tableR2"></td>
+           </tr>
+           <tr>
+             <td id="tableR3"></td>
+           </tr>
+           <tr>
+            <td id="tableR4"></td>
+           </tr>
+           <tr>
+            <td id="tableR5"></td>
+           </tr>
+        </tbody>
+      </table>
 
 <script src="js/script.js"></script>
 </body>

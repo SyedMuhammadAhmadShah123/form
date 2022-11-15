@@ -75,3 +75,14 @@ a:hover{
 input:focus{
     outline: none;
 }
+
+table, th, td {
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    width: 30%;
+    text-align: center;
+}
+
+table{
+    margin: 5% auto;
+}
