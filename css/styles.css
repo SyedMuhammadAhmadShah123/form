@@ -62,14 +62,14 @@ a{
     margin-left: 100px;
 }
 a:hover{
-    color: rgba(23, 187, 187, 0.596);;
+    color: rgba(23, 187, 187)
 }
 #button:hover{
     cursor: pointer;
-    background-color: rgba(99, 107, 107, 0.596);;
+    background-color: rgba(99, 107, 107, 0.596);
     /* background-color: aliceblue; */
     /* color: rgba(23, 187, 187, 0.596); */
-    color: rgba(23, 187, 187);
+    color: rgba(23, 187, 187)
 }
 
 input:focus{
