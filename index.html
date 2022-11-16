@@ -17,10 +17,10 @@
             <img src="assets/coffee table.jpg" alt="Visiting-Card.jpg">
         </div>
         <div id="d3">
-            <form action="" autocomplete="on">
+            <form action="" autocomplete="on" name="myForm" onsubmit="return validateForm()">
                 <h2 style="margin-bottom: 48px; margin-top: 10px; text-align: center; ">Create Account</h2>
                 <i class="fa-solid fa-user" ></i>
-                <input id="name" type="text" placeholder="Full Name" required value="John Smith">
+                <input id="name" type="text" placeholder="Full Name" value="John Smith">
                 <br>
                 <i class="fa-solid fa-envelope"></i>
                 <input id="email" type="email" placeholder="Email Address" required value="johnSmith@gmail.com">  
@@ -29,20 +29,19 @@
                 <input id="phoneNumber" type="tel" placeholder="Phone Number - Optional" value="03111111111">
                 <br>
                 <i class="fa-solid fa-key"></i>
-                <input id="pswd" type="password" placeholder="Password" value="abc123">
+                <input id="pswd" type="password" placeholder="Password" value="abcAbcAbc1@">
                 <br>
                 <i class="fa-solid fa-key"></i>
-                <input id="cPswd" type="password" placeholder="Confirm Password" value="abc123">
+                <input id="cPswd" type="password" placeholder="Confirm Password" value="abcAbcAbc1@">
                 <br>
                 <input id="button" type="submit" value="Signup Now">
-                <a href="html/table.html">Click to see table</a>
+                <a href="#table">Click to see table</a>
             </form>
         </div>
 
     </div>
 
-    <div id="output"></div>
-    <table>
+    <table id="table" >
         <thead>
           <tr>
             <th>Form Data</th>
